@@ -1,0 +1,148 @@
+{
+  "faqs": [
+    {
+      "q": "hi",
+      "a": "Hello! 👋 I'm Sabinesh's AI Portfolio Assistant. Feel free to ask me about Sabinesh's skills, projects, internships, education, or AI expertise."
+    },
+    {
+      "q": "hello",
+      "a": "Hi! Welcome to Sabinesh's portfolio. I'm here to answer questions about his technical skills, experience, and projects."
+    },
+    {
+      "q": "good morning",
+      "a": "Good morning! Hope you're having a great day. Ask me anything about Sabinesh's portfolio."
+    },
+    {
+      "q": "good afternoon",
+      "a": "Good afternoon! I'm here to help you learn more about Sabinesh."
+    },
+    {
+      "q": "good evening",
+      "a": "Good evening! Feel free to explore Sabinesh's skills, projects, and experience."
+    },
+    {
+      "q": "how are you",
+      "a": "I'm doing great! Thanks for asking. How can I help you learn more about Sabinesh today?"
+    },
+    {
+      "q": "who created you",
+      "a": "I was designed and developed by Sabinesh using React, JavaScript, and modern AI technologies to help visitors learn more about his portfolio."
+    },
+    {
+      "q": "who are you",
+      "a": "I'm Sabinesh's AI Portfolio Assistant. I can answer questions about his projects, internships, technical skills, education, and career goals."
+    },
+    {
+      "q": "what can you do",
+      "a": "I can answer questions about Sabinesh's technical skills, internships, AI projects, web development experience, education, resume, and contact information."
+    },
+    {
+      "q": "tell me about yourself",
+      "a": "I'm an AI assistant built specifically for Sabinesh's portfolio. My goal is to provide recruiters and visitors with quick and accurate information about his professional background."
+    },
+    {
+      "q": "who is sabinesh",
+      "a": "Sabinesh S is an aspiring AI Full Stack Developer and Computer Science Engineering student (Expected Graduation: 2027). He is passionate about building intelligent web applications using React, Python, Django, and Generative AI technologies."
+    },
+    {
+      "q": "tell me about sabinesh",
+      "a": "Sabinesh is an aspiring AI Full Stack Developer with practical experience gained through four internships in web development and AI engineering. He enjoys solving real-world problems using Full Stack Development and Generative AI."
+    },
+    {
+      "q": "professional summary",
+      "a": "Motivated AI Full Stack Developer with internship experience in web development, LLM integration, RAG pipelines, and Agentic AI. Passionate about building scalable AI-powered software solutions."
+    },
+    {
+      "q": "skills",
+      "a": "Frontend: HTML5, CSS3, Bootstrap, JavaScript, React.js. Backend: Python, Django, REST APIs. AI: LLM Integration, RAG, LangChain, LangGraph, Agentic AI, Multi-Agent Systems. Database: MySQL, Vector Databases. Tools: Git, GitHub, VS Code."
+    },
+    {
+      "q": "frontend",
+      "a": "Sabinesh builds responsive and modern user interfaces using HTML5, CSS3, Bootstrap, JavaScript (ES6+), and React.js."
+    },
+    {
+      "q": "backend",
+      "a": "Sabinesh develops backend applications using Python, Django, and RESTful APIs."
+    },
+    {
+      "q": "ai",
+      "a": "Sabinesh specializes in Generative AI, LLM Integration, RAG, LangChain, LangGraph, Agentic AI, Prompt Engineering, Multi-Agent Systems, and AI Chatbot Development."
+    },
+    {
+      "q": "rag",
+      "a": "Retrieval-Augmented Generation (RAG) combines Large Language Models with external knowledge sources to generate accurate and context-aware responses."
+    },
+    {
+      "q": "langchain",
+      "a": "LangChain is a framework for building LLM-powered applications. Sabinesh uses it for RAG pipelines, AI chatbots, and intelligent workflows."
+    },
+    {
+      "q": "langgraph",
+      "a": "LangGraph enables stateful AI agents and multi-agent workflows. Sabinesh uses it for building Agentic AI applications."
+    },
+    {
+      "q": "agentic ai",
+      "a": "Agentic AI enables intelligent agents to reason, plan, use tools, and complete complex multi-step tasks autonomously."
+    },
+    {
+      "q": "mcp",
+      "a": "Model Context Protocol (MCP) is an open standard that allows AI assistants to securely communicate with external tools and data sources."
+    },
+    {
+      "q": "internships",
+      "a": "Sabinesh has completed four internships: ACL Digital (Software Developer Intern), Taras System Solution (AI Developer Intern), AK Infopark (Web Developer Intern), and Capnies Infotech (Web Developer Intern)."
+    },
+    {
+      "q": "projects",
+      "a": "Major projects include a RAG-Based AI Chatbot, Agentic AI Assistant, Business Website, AI Portfolio Website, and Full Stack web applications built with React and Django."
+    },
+    {
+      "q": "education",
+      "a": "Sabinesh is pursuing a B.E. in Computer Science and Engineering at Stella Mary's College of Engineering, Nagercoil. Expected Graduation: 2027."
+    },
+    {
+      "q": "experience",
+      "a": "Sabinesh has internship experience in Full Stack Development, AI Engineering, RAG systems, LLM integration, Agentic AI, and modern web technologies."
+    },
+    {
+      "q": "career goal",
+      "a": "Sabinesh aims to become a skilled AI Full Stack Engineer, building scalable software and AI-powered applications for global technology companies."
+    },
+    {
+      "q": "resume",
+      "a": "You can download Sabinesh's latest resume from the Resume section of this portfolio."
+    },
+    {
+      "q": "github",
+      "a": "You can explore Sabinesh's projects and source code on his GitHub profile linked in this portfolio."
+    },
+    {
+      "q": "linkedin",
+      "a": "Connect with Sabinesh professionally through the LinkedIn profile available in the Contact section."
+    },
+    {
+      "q": "contact",
+      "a": "Email: sabinesh14s@gmail.com | Phone: +91 84890 39175 | LinkedIn and GitHub links are available in the Contact section."
+    },
+    {
+      "q": "hire",
+      "a": "Yes! Sabinesh is open to internships, entry-level Software Engineering roles, AI Engineering positions, and freelance opportunities."
+    },
+    {
+      "q": "certifications",
+      "a": "Sabinesh has completed multiple certifications in web development, AI, programming, and software engineering, which are showcased in this portfolio."
+    },
+    {
+      "q": "strengths",
+      "a": "Strong problem-solving skills, quick learner, passionate about AI, full stack development, teamwork, continuous learning, and building practical software solutions."
+    },
+    {
+      "q": "thanks",
+      "a": "You're welcome! 😊 Thanks for visiting Sabinesh's portfolio. Feel free to ask anything else."
+    },
+    {
+      "q": "bye",
+      "a": "Goodbye! 👋 Thank you for visiting Sabinesh's portfolio. Have a wonderful day!"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Reset ─────────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ── Root overflow fix (root cause, not body hack) ── */
+html {
+  scroll-behavior: smooth;
+  /* Contain overflow at the document level */
+  overflow-x: clip;           /* clip ≠ hidden — does not create scroll context */
+  max-width: 100%;
+}
+
+body {
+  background-color: #030712;
+  color: #f8fafc;
+  font-family: 'Inter', sans-serif;
+  /* NO overflow-x: hidden here — we fix root causes instead */
+  min-height: 100dvh;
+  max-width: 100%;
+}
+
+/* ── Scrollbar ──────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0f172a; }
+::-webkit-scrollbar-thumb { background: #6366f1; border-radius: 3px; }
+
+/* ── Glassmorphism ──────────────────────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ── Gradient text ──────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Aurora: fixed + overflow:hidden so blobs never    */
+/*    extend beyond the viewport ────────────────────── */
+.aurora {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;           /* blobs clipped inside this fixed layer */
+}
+
+.aurora-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.15;
+  animation: auroraMove 20s ease-in-out infinite;
+  /* Keep blobs fully inside the aurora container */
+  max-width: 100%;
+}
+
+@keyframes auroraMove {
+  0%,  100% { transform: translate(0, 0) scale(1); }
+  33%       { transform: translate(20px, -40px) scale(1.1); }
+  66%       { transform: translate(-15px, 15px) scale(0.9); }
+}
+
+/* ── Typing cursor ──────────────────────────────────── */
+.typing-cursor::after {
+  content: '|';
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+/* ── Section spacing ────────────────────────────────── */
+.section-padding {
+  padding: 80px 0;
+}
+@media (max-width: 640px) {
+  .section-padding { padding: 60px 0; }
+}
+
+/* ── Images never overflow their containers ─────────── */
+img, video, canvas, svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* ── Prevent any direct child of body from overflowing */
+#root {
+  max-width: 100%;
+  overflow-x: hidden;         /* single containment point */
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}

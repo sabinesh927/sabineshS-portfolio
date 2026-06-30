@@ -1,0 +1,92 @@
+{
+  "internships": [
+    {
+      "id": 1,
+      "company": "ACL Digital",
+      "role": "Python Developer Intern",
+      "duration": "Jan 2026 - Present",
+      "type": "Ongoing",
+      "location": "Chennai, Tamil Nadu",
+      "description": "Working on AI migration projects using Python, FastAPI, Large Language Models (LLMs), and REST APIs.",
+      "technologies": ["Python", "FastAPI", "RAG", "FAISS", "LLMs"],
+      "achievements": [
+        "Developed RESTful APIs using Python and FastAPI",
+        "Implemented RAG-based AI applications using LLMs and FAISS",
+        "Integrated Large Language Models (LLMs) into backend services",
+        "Optimized API performance and improved response efficiency",
+        "Built scalable backend services for AI-powered applications"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Capnis Infotech Pvt. Ltd.",
+      "role": "Full Stack Developer Intern",
+      "duration": "1 Month",
+      "type": "On-site",
+      "location": "Chennai, Tamil Nadu",
+      "description": "Developed responsive web applications using PHP, Laravel, HTML, CSS, JavaScript, and MySQL.",
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "MySQL"
+      ],
+      "achievements": [
+        "Built responsive web application modules",
+        "Developed backend features using Laravel",
+        "Integrated frontend with backend APIs",
+        "Worked with MySQL databases",
+        "Collaborated with the development team using Git"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "AK Infopark Pvt. Ltd.",
+      "role": "Frontend Developer Intern",
+      "duration": "1 Month",
+      "type": "On-site",
+      "location": "Nagercoil, Tamil Nadu",
+      "description": "Designed and developed responsive user interfaces using React and Bootstrap.",
+      "technologies": [
+        "React",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "achievements": [
+        "Built responsive web pages using Bootstrap",
+        "Developed reusable React components",
+        "Improved website responsiveness across devices",
+        "Implemented modern UI/UX designs",
+        "Collaborated with developers during frontend development"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Taras Info Systems",
+      "role": "AI Intern",
+      "duration": "6 Months",
+      "type": "Remote",
+      "location": "Coimbatore, Tamil Nadu",
+      "description": "Worked on AI applications using Python, FastAPI, RAG, FAISS, and Large Language Models (LLMs).",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "RAG",
+        "FAISS",
+        "LLMs",
+        "LangChain"
+      ],
+      "achievements": [
+        "Developed AI-powered backend services",
+        "Built Retrieval-Augmented Generation (RAG) pipelines",
+        "Integrated LLMs into intelligent applications",
+        "Implemented document retrieval using FAISS",
+        "Collaborated on AI feature development and testing"
+      ]
+    }
+  ]
+}
